@@ -1,4 +1,4 @@
-package com.example.recipeapp.Models;
+package com.example.recipeapp.models;
 
 public class Metric {
     public double amount;

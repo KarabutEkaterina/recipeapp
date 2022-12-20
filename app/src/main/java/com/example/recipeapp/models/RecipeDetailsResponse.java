@@ -1,8 +1,8 @@
-package com.example.recipeapp.Models;
+package com.example.recipeapp.models;
 
 import java.util.ArrayList;
 
-public class RecipeDetaolsResponse {
+public class RecipeDetailsResponse {
     public int id;
     public String title;
     public String image;

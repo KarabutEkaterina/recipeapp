@@ -8,5 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#F35321</color>
+    <color name="pink_primary">#FEDBD0</color>
+    <color name="dark_primary">#442C2E</color>
+    <color name="pink_secondary">#FEEAE6</color>
+
+
+
 
 </resources>

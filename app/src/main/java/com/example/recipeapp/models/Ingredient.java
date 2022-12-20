@@ -1,6 +1,6 @@
-package com.example.recipeapp.Models;
+package com.example.recipeapp.models;
 
-public class Equipment {
+public class Ingredient {
     public int id;
     public String name;
     public String localizedName;

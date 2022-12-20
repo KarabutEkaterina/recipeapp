@@ -3,8 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.37820943196614587" />
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_baseline_thumb_up_24.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_servings.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_time.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24740295410156252" />
+        <entry key="app/src/main/res/layout/activity_recipe_details.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.22604166666666667" />
+        <entry key="app/src/main/res/layout/list_meal_ingredients.xml" value="0.2916666666666667" />
         <entry key="app/src/main/res/layout/list_random_recipe.xml" value="0.29010416666666666" />
+        <entry key="app/src/main/res/layout/list_similar_recipe.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/spinner_inner_text.xml" value="0.178125" />
+        <entry key="app/src/main/res/layout/spinner_text.xml" value="0.178125" />
       </map>
     </option>
   </component>
