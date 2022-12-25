@@ -76,7 +76,6 @@ public class RecipeDetailsActivity extends AppCompatActivity {
         @Override
         public void didError(String message) {
             Toast.makeText(RecipeDetailsActivity.this, message, Toast.LENGTH_SHORT).show();
-
         }
     };
 

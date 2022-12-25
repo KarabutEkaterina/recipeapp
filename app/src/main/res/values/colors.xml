@@ -13,6 +13,13 @@
     <color name="pink_secondary">#FEEAE6</color>
 
 
+    <color name="light_green">#CFFDE1</color>
+    <color name="dark_green">#68B984</color>
+    <color name="yellow">#FED049</color>
+    <color name="grey">#3D5656</color>
+
+
+
 
 
 </resources>

@@ -12,6 +12,7 @@ import com.example.recipeapp.models.RecipeDetailsResponse;
 import com.example.recipeapp.models.SimilarRecipeResponse;
 import com.example.recipeapp.listeners.requests.SimilarRecipeResponseListener;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -29,8 +30,11 @@ public class RequestManager {
 
     private final RecipesApi recipesApi;
 
+    public List<retrofit2.Call> randomRecipeCallsList;
+
     public RequestManager(Context context) {
         this.context = context;
+        randomRecipeCallsList = new ArrayList<>();
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://api.spoonacular.com/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -40,6 +44,7 @@ public class RequestManager {
 
     public void getRandomRecipes(RandomRecipeResponseListener listener, List<String> tags) {
         Call<RandomRecipeApiResponse> call = recipesApi.callRandomRecipe(context.getString(R.string.api_key), "10", tags);
+        randomRecipeCallsList.add(call);
         call.enqueue(new BaseRetrofitCallback<>(listener));
     }
 

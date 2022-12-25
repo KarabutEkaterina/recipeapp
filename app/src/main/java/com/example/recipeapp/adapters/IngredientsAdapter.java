@@ -16,7 +16,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-//как ячейку переиспользовать
+
 public class IngredientsAdapter extends RecyclerView.Adapter<IngredientsViewHolder> {
     Context context;
     List<ExtendedIngredient> list;
@@ -56,7 +56,7 @@ public class IngredientsAdapter extends RecyclerView.Adapter<IngredientsViewHold
     }
 }
 
-//создание ячейки
+
 class IngredientsViewHolder extends RecyclerView.ViewHolder {
     TextView textView_ingredients_quantity, textView_ingredients_name;
     ImageView imageView_ingredients;

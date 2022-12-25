@@ -11,6 +11,7 @@ import com.example.recipeapp.models.RandomRecipeApiResponse;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.telecom.Call;
 import android.view.View;
 
 import androidx.appcompat.widget.SearchView;
@@ -77,6 +78,16 @@ public class MainActivity extends AppCompatActivity {
 //        manager.getRandomRecipes(randomRecipeResponseListener);
 //        dialog.show();
     }
+
+    public void onDestroy() {
+        for( int i = 0; i < manager.randomRecipeCallsList.size(); i++){
+            retrofit2.Call callToCansel = manager.randomRecipeCallsList.get(i);
+            callToCansel.cancel();
+        }
+
+        super.onDestroy();
+   }
+
 
     private final RandomRecipeResponseListener randomRecipeResponseListener = new RandomRecipeResponseListener() {
         @Override
